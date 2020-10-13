@@ -1,0 +1,10 @@
+<nav class="navbar bg-light shadow nav-sticky">
+    <h1>Villagers</h1>
+</nav>
+
+<div class="villagers-grid p-5">
+    <div *ngFor="let villager of villagers">
+        <app-villager [villager]="villager"></app-villager>
+    </div>
+
+</div>

@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "animal-crossing"
+    }
+  },
+  "defaultProject": "animal-crossing",
+  "cli": {
+    "analytics": false
+  }
 }

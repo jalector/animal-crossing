@@ -1,0 +1,21 @@
+.wrapper {
+	height: 100%;
+}
+
+#sidebar {
+	position: relative;
+	overflow-y: auto;
+	overflow-x: hidden;
+	width: 300px;
+	float: left;
+	height: 100%;
+}
+
+#content {
+	text-align: justify;
+	padding: 8px;
+
+	height: 100%;
+	overflow: auto;
+}
+
