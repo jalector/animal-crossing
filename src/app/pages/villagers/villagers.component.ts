@@ -25,7 +25,7 @@ export class VillagersComponent {
 
       this.villagers = Villager.fromJSONCollection(response);
     } catch (error) {
-      console.log(error);
+      console.log("Controller", error);
 
     }
 
