@@ -3,18 +3,16 @@ bdColor="rgba(0, 0, 0, 0.6)"
 size="medium" 
 color="#fff" 
 type="ball-pulse">
-  <p style="color: white" > Loading villagers... </p>
+  <p style="color: white" > Loading... </p>
 </ngx-spinner>
 
 <div class="wrapper">
   <div id="sidebar" class="shadow">
     <h1 class="p-3">Animal Crossing</h1>
     <ul class="list-group list-group-flush">
-      <li class="list-group-item">Villagers</li>
-      <li class="list-group-item">Villagers</li>
-      <li class="list-group-item">Villagers</li>
-      <li class="list-group-item">Villagers</li>
-      <li class="list-group-item">Villagers</li>
+      <div *ngFor="let tab of menuItem">
+        <li class="list-group-item" routerLinkActive="actived-tab" (click)="tab.click()" [routerLink]="tab.route">{{tab.title}}</li>    
+      </div>
     </ul>
   </div>
   <div id="content" class="p-0">

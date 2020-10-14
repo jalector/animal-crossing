@@ -19,3 +19,9 @@
 	overflow: auto;
 }
 
+
+.actived-tab {
+	background: #ADDCF5;
+	font-weight: bold;
+	font-size: 18px;
+}

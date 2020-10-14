@@ -5,18 +5,24 @@ import { NgModule, CUSTOM_ELEMENTS_SCHEMA} from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app.routing';
-import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { VillagersComponent } from './pages/villagers/villagers.component';
 import { VillagerComponent } from './components/villager/villager.component';
 import { HttpClientModule } from '@angular/common/http';
 import { NgxSpinnerModule } from 'ngx-spinner';
+import { BugsComponent } from './pages/bugs/bugs.component';
+import { FishComponent } from './pages/fish/fish.component';
+import { SongsComponent } from './pages/songs/songs.component';
+import { FossilsComponent } from './pages/fossils/fossils.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DashboardComponent,
     VillagersComponent,
-    VillagerComponent
+    VillagerComponent,
+    BugsComponent,
+    FishComponent,
+    SongsComponent,
+    FossilsComponent
   ],
   imports: [
     BrowserModule,

@@ -10,6 +10,7 @@ export class GlobalRequestService {
 
   private readonly host = environment.apiHost;
   public readonly villagers = "villagers";
+  public readonly bugs = "bugs";
 
   private spinnerRequestCount = 0;
 

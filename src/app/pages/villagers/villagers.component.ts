@@ -10,6 +10,7 @@ import { GlobalRequestService } from 'src/app/services/global-request.service';
 export class VillagersComponent {
 
   public villagers: Villager[];
+  
   constructor(
     private _requeser: GlobalRequestService,
   ) {

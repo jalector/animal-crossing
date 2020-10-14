@@ -1,0 +1,16 @@
+<nav class="navbar bg-light shadow nav-sticky">
+    <h1>Bugs</h1>
+</nav>
+
+<div class="simple-grid p-5">
+    <div *ngFor="let bug of bugs">
+        <div class="card rounded shadow" style="width: 18rem;">
+            <img src="{{bug.icon}}" class="card-img-top" draggable="false">
+            <div class="card-body">
+                <p>{{bug.name}}</p>
+                <p class="card-text text-muted">{{bug.catchPhrase}}</p>
+            </div>
+        </div>
+    </div>
+
+</div>
